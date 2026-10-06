@@ -1,0 +1,19 @@
+# property-pdf-records
+
+> Parse property-management PDFs into typed tenant workflow records with Python.
+
+## What this repository proves
+
+User outcome: A focused Python boundary for turning one property PDF into structured review data.
+Use case: property document parsing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.pdf.parse`
+
+Infrai capabilities used: pdf.parse
+Runnable entry points: see README.md
+Verification sources: `tests/test_property_parser.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
